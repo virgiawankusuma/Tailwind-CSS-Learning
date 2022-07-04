@@ -1,1 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+#toggle:checked  ~ label div.toggle-circle {
+ @apply translate-x-3;
+}

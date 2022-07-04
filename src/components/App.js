@@ -4,6 +4,7 @@ import { getData } from '../utils/data';
 
 import AppHero from './AppHero';
 import ArticleList from './ArticleList';
+import AppInput from './AppInput';
 
 function App() {
   const articles = getData();
@@ -16,7 +17,15 @@ function App() {
         </h1>
       </header>
       <AppHero/>
+      {/* H2 Title */}
+      <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
+        Articles
+      </h2>
       <ArticleList articles={articles}/>
+      <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
+        Input
+      </h2>
+      <AppInput/>
     </div>
   );
 }

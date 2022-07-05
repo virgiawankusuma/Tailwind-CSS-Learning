@@ -2,7 +2,7 @@ import React from 'react';
 
 function AppInput() {
   return (
-    <div className="px-6 py-4 rounded-lg border shadow-orange-200 shadow mb-6 max-w-lg mx-auto bg-white">
+    <div className="px-6 py-4 rounded-lg border shadow-orange-200 shadow mb-6 max-w-lg mx-auto bg-white group dark:bg-gray-800 dark:border-none dark:shadow-none dark:text-gray-200 dark dark:hover:shadow-lg dark:hover:shadow-orange-500 dark:hover:bg-orange-500">
       <form>
         <label for="email">
           <span className="block mb-1 text-slate-600 after:content-['*'] after:text-orange-700 after:ml-0.5">Title</span>

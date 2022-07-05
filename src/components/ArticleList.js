@@ -4,7 +4,7 @@ import ArticleItem from './ArticleItem';
 
 function ArticleList({ articles }) {
   return (
-    <section>
+    <section className="container mx-auto">
       {
         articles.map((article) => (
           <ArticleItem key={article.id} {...article} />

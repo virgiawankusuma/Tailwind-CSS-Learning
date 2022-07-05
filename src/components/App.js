@@ -8,6 +8,7 @@ import AppHero from './AppHero';
 import ArticleList from './ArticleList';
 import AppInput from './AppInput';
 import AppAnimate from './AppAnimate';
+import AppSidebar from './AppSidebar';
 
 function App() {
   const articles = getData();
@@ -17,8 +18,12 @@ function App() {
       <AppHeader/>
       <AppHero/>
       <AppToggle/>
+
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Articles</h2>
-      <ArticleList articles={articles}/>
+      <div className="flex">
+        <ArticleList articles={articles}/>
+        <AppSidebar/>
+      </div>
 
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Input</h2>
       <AppInput/>

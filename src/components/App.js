@@ -7,7 +7,6 @@ import AppToggle from './AppToggle';
 import AppHero from './AppHero';
 import ArticleList from './ArticleList';
 import AppInput from './AppInput';
-import AppBox from './AppAnimate';
 import AppAnimate from './AppAnimate';
 
 function App() {

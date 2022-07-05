@@ -9,6 +9,7 @@ import ArticleList from './ArticleList';
 import AppInput from './AppInput';
 import AppAnimate from './AppAnimate';
 import AppSidebar from './AppSidebar';
+import AppTop from './AppTop';
 
 function App() {
   const articles = getData();
@@ -30,6 +31,8 @@ function App() {
 
       <hr className="my-20"></hr>
       <AppAnimate/>
+
+      <AppTop/>
     </div>
   );
 }

@@ -7,6 +7,8 @@ import AppToggle from './AppToggle';
 import AppHero from './AppHero';
 import ArticleList from './ArticleList';
 import AppInput from './AppInput';
+import AppBox from './AppAnimate';
+import AppAnimate from './AppAnimate';
 
 function App() {
   const articles = getData();
@@ -21,6 +23,9 @@ function App() {
 
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Input</h2>
       <AppInput/>
+
+      <hr className="my-20"></hr>
+      <AppAnimate/>
     </div>
   );
 }

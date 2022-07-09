@@ -2,7 +2,7 @@ import React from 'react';
 
 function AppAnimate() {
   return (
-    <div className="flex container mx-auto">
+    <div className="xl:flex lg:columns-4 md:columns-3 container mx-auto">
       <div className="w-40 h-40 bg-orange-500 mx-auto mb-20 rounded-md shadow-lg hover:rotate-180 hover:bg-pink-500 transition origin-top-left"></div>
 
       <div className="w-40 h-40 mx-auto mb-20 group">

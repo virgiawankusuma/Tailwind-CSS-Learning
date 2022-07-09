@@ -20,9 +20,9 @@ function App() {
       <AppHero/>
       <AppToggle/>
 
-      <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Articles</h2>
-      <div className="container mx-auto">
-        <div className="flex gap-10">
+      <div className="container mx-auto px-5">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Articles</h2>
+        <div className="xl:flex gap-10">
           <ArticleList articles={articles}/>
           <AppSidebar/>
         </div>

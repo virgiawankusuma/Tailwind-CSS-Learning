@@ -21,18 +21,20 @@ function App() {
       <AppToggle/>
 
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Articles</h2>
-      <div className="flex">
-        <ArticleList articles={articles}/>
-        <AppSidebar/>
+      <div className="container mx-auto">
+        <div className="flex gap-10">
+          <ArticleList articles={articles}/>
+          <AppSidebar/>
+        </div>
+
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Input</h2>
+        <AppInput/>
+
+        <hr className="my-20"></hr>
+        <AppAnimate/>
+
+        <AppTop/>
       </div>
-
-      <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Input</h2>
-      <AppInput/>
-
-      <hr className="my-20"></hr>
-      <AppAnimate/>
-
-      <AppTop/>
     </div>
   );
 }

@@ -10,6 +10,7 @@ import AppInput from './AppInput';
 import AppAnimate from './AppAnimate';
 import AppSidebar from './AppSidebar';
 import AppTop from './AppTop';
+import AppGallery from './AppGallery';
 
 function App() {
   const articles = getData();
@@ -20,14 +21,14 @@ function App() {
       <AppHero/>
       <AppToggle/>
 
-      <div className="container mx-auto px-5">
+      <div className="container mx-auto p">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Articles</h2>
         <div className="xl:flex gap-10">
           <ArticleList articles={articles}/>
           <AppSidebar/>
         </div>
 
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-4 dark:text-gray-100">Input</h2>
+        <AppGallery/>
         <AppInput/>
 
         <hr className="my-20"></hr>

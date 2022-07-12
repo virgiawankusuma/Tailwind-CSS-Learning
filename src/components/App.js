@@ -11,6 +11,7 @@ import AppAnimate from './AppAnimate';
 import AppSidebar from './AppSidebar';
 import AppTop from './AppTop';
 import AppGallery from './AppGallery';
+import AppGalleryGrid from './AppGalleryGrid';
 
 function App() {
   const articles = getData();
@@ -29,6 +30,7 @@ function App() {
         </div>
 
         <AppGallery/>
+        <AppGalleryGrid/>
         <AppInput/>
 
         <hr className="my-20"></hr>

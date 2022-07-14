@@ -3,8 +3,8 @@ import React from 'react';
 function AppGalleryGrid() {
   return (
     <section className="mb-10 p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
-      <h2 className="text-xl font-semibold text-gray-800 mb-4 dark:text-gray-100 md:col-start-4 md:row-start-2 md:flex"><span className="self-center">Welcome to Gallery Grid</span></h2>
-      <div className="text-lg font-bold text-gray-800 mb-4 dark:text-gray-100 md:col-start-2 md:row-start-2 md:flex "><span className="self-end">@virgiawankusuma</span></div>
+      <h2 className="text-xl font-semibold text-gray-800 mb-4 dark:text-gray-100 md:col-start-4 md:row-start-2 md:flex"><span className="self-center grid-text">Welcome to Gallery Grid</span></h2>
+      <div className="text-lg font-bold text-gray-800 mb-4 dark:text-gray-100 md:col-start-2 md:row-start-2 md:flex "><span className="self-end grid-text">@virgiawankusuma</span></div>
       <div className="group grid-card">
         <div className="bg-[url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5vbG9neXx8fHx8fDE2NTc2MDkxMTQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640')] grid-card-img"></div>
       </div>

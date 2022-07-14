@@ -5,6 +5,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        primary: '#f97316'
+      },
       fontFamily: {
         'poppins': ['Poppins'],
         'playfairDisplay': ['Playfair Display']
